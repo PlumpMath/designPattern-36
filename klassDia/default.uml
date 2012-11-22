@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_wGvAEDS4EeKsVoLcCurQmQ" name="default.uml_classdiagram">
+  <elementImport xmi:id="_wLfkQDS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouMDS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouMTS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouMjS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouMzS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouNDS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouNTS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_wLouNjS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_wLyfMDS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_wLyfMTS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_wLyfMjS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+  </elementImport>
+  <elementImport xmi:id="_wLyfMzS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_wLyfNDS4EeKsVoLcCurQmQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_x7qhYDS4EeKsVoLcCurQmQ" name="KoffeinhaltigsGetraenk" isAbstract="true" isFinalSpecialization="true">
+    <ownedOperation xmi:id="_5_UOwDS4EeKsVoLcCurQmQ" name="zubereitungsRezept" visibility="public"/>
+    <ownedOperation xmi:id="_LyeHUDS5EeKsVoLcCurQmQ" name="aufgießen" visibility="public" isAbstract="true"/>
+    <ownedOperation xmi:id="_Ov3FgDS5EeKsVoLcCurQmQ" name="zutatenHinzufuegen" visibility="public" isAbstract="true"/>
+    <ownedOperation xmi:id="_a-HLEDS5EeKsVoLcCurQmQ" name="kocheWasser" visibility="public"/>
+    <ownedOperation xmi:id="_ds66sDS5EeKsVoLcCurQmQ" name="inTasseFuellen" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yUXVQDS4EeKsVoLcCurQmQ" name="Kaffe">
+    <generalization xmi:id="_I5ZocDS5EeKsVoLcCurQmQ" general="_x7qhYDS4EeKsVoLcCurQmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ykbxkDS4EeKsVoLcCurQmQ" name="Tee">
+    <generalization xmi:id="_In1-YDS5EeKsVoLcCurQmQ" general="_x7qhYDS4EeKsVoLcCurQmQ"/>
+  </packagedElement>
+</uml:Model>

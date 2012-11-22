@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="Valkyrie UML2 Class Diagram" name="default.uml_classdiagram" measurementUnit="Pixel">
+  <children type="2006">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:LineStyle"/>
+    <element href="default.uml#_wGvAEDS4EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds"/>
+  </children>
+  <children type="2001">
+    <children xsi:type="notation:DecorationNode" type="5001"/>
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:BasicCompartment" type="7001">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" type="7002">
+      <children type="3001">
+        <element href="default.uml#_LyeHUDS5EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_ds66sDS5EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_a-HLEDS5EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_5_UOwDS4EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_Ov3FgDS5EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <element href="default.uml#_x7qhYDS4EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="260" y="30"/>
+  </children>
+  <children type="2001">
+    <children xsi:type="notation:DecorationNode" type="5001"/>
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:BasicCompartment" type="7001">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" type="7002">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <element href="default.uml#_yUXVQDS4EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="220" y="230"/>
+  </children>
+  <children type="2001">
+    <children xsi:type="notation:DecorationNode" type="5001"/>
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:BasicCompartment" type="7001">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" type="7002">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <element href="default.uml#_ykbxkDS4EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="380" y="230"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="default.uml#_wGvAEDS4EeKsVoLcCurQmQ"/>
+  <edges type="4002" source="//@children.3" target="//@children.1">
+    <children xsi:type="notation:DecorationNode" type="6006">
+      <layoutConstraint xsi:type="notation:Location" y="40"/>
+    </children>
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <element href="default.uml#_In1-YDS5EeKsVoLcCurQmQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5,0.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.949438202247191,1.0)"/>
+  </edges>
+  <edges type="4002" source="//@children.2" target="//@children.1">
+    <children xsi:type="notation:DecorationNode" type="6006">
+      <layoutConstraint xsi:type="notation:Location" y="40"/>
+    </children>
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <element href="default.uml#_I5ZocDS5EeKsVoLcCurQmQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5,0.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.05056179775280899,1.0)"/>
+  </edges>
+</notation:Diagram>
