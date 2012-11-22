@@ -16,17 +16,22 @@ public abstract class KoffeinhaltigesGetraenk {
 	 * oberklasse definiert wird. er ist final und muss somit in dieser form
 	 * (reihenfolge der aufrufe) verwendet werden und kann von den subklassen
 	 * nicht variiert werden. jedoch können die methodenaufrufe innerhalb des
-	 * algos von den unterklassen individuell realisert werden
-	 * <h6>
+	 * algos von den unterklassen individuell realisert werden <h6>
 	 * Sie definiert die schritte eines algos und ermoeglicht gleichzeitig den
-	 * unterklassen einige schritte des algos individuell zu implementieren
-	 * </h6>
+	 * unterklassen einige schritte des algos individuell zu implementieren</h6>
 	 */
 	public final void zubereitungsRezept() {
-
+		// passiert in oberklasse
 		kocheWasser();
+		/*
+		 * passiert in unterklassen
+		 */
 		aufgießen();
+		// passiert in oderklasse
 		inTasseSchütten();
+		/*
+		 * passiert in unterklassen
+		 */
 		zutatenHinzufügen();
 	}
 
