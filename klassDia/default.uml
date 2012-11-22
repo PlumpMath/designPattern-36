@@ -52,4 +52,12 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_ykbxkDS4EeKsVoLcCurQmQ" name="Tee">
     <generalization xmi:id="_In1-YDS5EeKsVoLcCurQmQ" general="_x7qhYDS4EeKsVoLcCurQmQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZH-ogDS8EeKsVoLcCurQmQ" name="AbstrakteKlasse" isAbstract="true">
+    <ownedOperation xmi:id="_eR_PQDS8EeKsVoLcCurQmQ" name="templateMethod" visibility="public"/>
+    <ownedOperation xmi:id="_hJvfgDS8EeKsVoLcCurQmQ" name="primitiveOperation1" visibility="public" isAbstract="true"/>
+    <ownedOperation xmi:id="_hfd34DS8EeKsVoLcCurQmQ" name="primitiveOperation2" visibility="public" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZfnscDS8EeKsVoLcCurQmQ" name="KonkreteKlasse">
+    <generalization xmi:id="_dWJ5IDS8EeKsVoLcCurQmQ" general="_ZH-ogDS8EeKsVoLcCurQmQ"/>
+  </packagedElement>
 </uml:Model>

@@ -79,6 +79,64 @@
     <element href="default.uml#_ykbxkDS4EeKsVoLcCurQmQ"/>
     <layoutConstraint xsi:type="notation:Bounds" x="380" y="230"/>
   </children>
+  <children type="2001">
+    <children xsi:type="notation:DecorationNode" type="5001"/>
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:BasicCompartment" type="7001">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" type="7002">
+      <children type="3001">
+        <element href="default.uml#_hJvfgDS8EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_hfd34DS8EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <children type="3001">
+        <element href="default.uml#_eR_PQDS8EeKsVoLcCurQmQ"/>
+        <layoutConstraint xsi:type="notation:Location"/>
+      </children>
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <element href="default.uml#_ZH-ogDS8EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="510" y="30"/>
+  </children>
+  <children type="2001">
+    <children xsi:type="notation:DecorationNode" type="5001"/>
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:BasicCompartment" type="7001">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" type="7002">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <styles xsi:type="notation:DescriptionStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <styles xsi:type="notation:FillStyle"/>
+    <element href="default.uml#_ZfnscDS8EeKsVoLcCurQmQ"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="540" y="230"/>
+  </children>
+  <children xsi:type="notation:Shape" type="Note" fontName="Segoe UI" description="Klassendiagramm zum Template Methode Pattern" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xsi:type="notation:BasicDecorationNode" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xsi:type="notation:TextStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="745" y="30" height="96"/>
+  </children>
   <styles xsi:type="notation:DiagramStyle"/>
   <element href="default.uml#_wGvAEDS4EeKsVoLcCurQmQ"/>
   <edges type="4002" source="//@children.3" target="//@children.1">
@@ -102,5 +160,16 @@
     <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
     <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5,0.0)"/>
     <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.05056179775280899,1.0)"/>
+  </edges>
+  <edges type="4002" source="//@children.5" target="//@children.4">
+    <children xsi:type="notation:DecorationNode" type="6006">
+      <layoutConstraint xsi:type="notation:Location" y="40"/>
+    </children>
+    <styles xsi:type="notation:RoutingStyle"/>
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <element href="default.uml#_dWJ5IDS8EeKsVoLcCurQmQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, 0, 102]$[0, -102, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.4959349593495935,0.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.49714285714285716,1.0)"/>
   </edges>
 </notation:Diagram>
