@@ -12,11 +12,15 @@ package designpattern.template.method;
  */
 public abstract class KoffeinhaltigesGetraenk {
 	/**
-	 * das ist der tatsächliche algo der in der oberklasse definiert wird. er
-	 * ist final und muss somit in dieser form (reihenfolge der aufrufe)
-	 * verwendet werden und kann von den subklassen nicht variiert werden.
-	 * jedoch können die methodenaufrufe innerhalb des algos von den
-	 * unterklassen individuell realisert werden
+	 * das ist der tatsächliche algo (die TEMPLATE MOTHODE) der in der
+	 * oberklasse definiert wird. er ist final und muss somit in dieser form
+	 * (reihenfolge der aufrufe) verwendet werden und kann von den subklassen
+	 * nicht variiert werden. jedoch können die methodenaufrufe innerhalb des
+	 * algos von den unterklassen individuell realisert werden
+	 * <h6>
+	 * Sie definiert die schritte eines algos und ermoeglicht gleichzeitig den
+	 * unterklassen einige schritte des algos individuell zu implementieren
+	 * </h6>
 	 */
 	public final void zubereitungsRezept() {
 
